@@ -104,7 +104,7 @@ header {
           }
 }
 .khan__content {
-  transition: 0.7s all;
+  transition: 0.5s all;
   position: absolute;
   bottom: -400px;
   border-radius: 12px;
@@ -117,7 +117,7 @@ header {
     rgba(211, 211, 211, 0.016) 50% / cover no-repeat;
 }
 .social {
-    transition: 0.7s all;
+    transition: 0.5s all;
     position: absolute;
     bottom: -400px;
     z-index: 10;
@@ -135,8 +135,7 @@ border-radius: 12px;
 .card2:hover .khan__content {
     bottom: 0px;
   border-radius: 12px;
- }
-    
+ }    
 .card3:hover .khan__content {
     bottom: 0px;
   border-radius: 12px;

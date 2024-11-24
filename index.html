@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head >
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Khan Academy</title>
+<link rel="icon" href="./assets/svg/loader_logo.svg">
     <link rel="stylesheet" href="./css/output.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- <link class="p-0 m-0 "
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+        
+      <!-- animation qoymoqchi boldim lekin scroll chiqib qovotti  -->
   </head>
-  <body>
+  <body >
     <!-- header start  -->
     <header class="relative">
       <div class="container2">
@@ -107,7 +111,7 @@
     </header>
 
     <!-- showcase  start  -->
-    <section class="pt-10 pb-14 bg-[#f8fafc]">
+    <section data-aos="fade-up" data-aos-duration="2000" class="pt-10 pb-14 bg-[#f8fafc]">
       <div
         class="container2 flex flex-col justify-center gap-7 max-[488px]:gap-4"
       >
@@ -154,7 +158,7 @@
     <!-- kam vaqt start  -->
     <section class="my-14">
       <div class="container2 flex flex-col gap-5">
-        <div>
+        <div >
           <h1
             class="text-[54px] text-[#323a56] font-extrabold max-w-[860px] mx-auto text-center max-[1024px]:text-[50px] max-[808px]:text-[40px] max-[488px]:text-[28px]"
           >
@@ -168,14 +172,17 @@
             Junior darajasiga chiqa olasiz
           </p>
         </div>
-        <div class="flex border-2 rounded-[20px] max-[1200px]:flex-col">
-          <video
+        <div 
+          class="flex border-2 rounded-[20px] max-[1200px]:flex-col">
+          <video data-aos="fade-up-right" data-aos-duration="2000" 
             poster="./assets/svg/video_poster.svg"
             controls
             src="./assets/video/Apollo 13 Views of the Moon in 4K.mp4"
             class="basis-[60%] object-cover"
           ></video>
           <div
+           data-aos-duration="2000"
+           data-aos="fade-up-left"
             class="basis-[40%] flex justify-center items-center px-5 py-10 max-[450px]:p-4 max-[300px]:p-3"
           >
             <div
@@ -245,7 +252,8 @@
         <div
           class="mt-10 grid grid-cols-3 gap-5 max-[914px]:grid-cols-2 max-[605px]:grid-cols-1"
         >
-          <div
+          <div data-aos="zoom-out-right" 
+          data-aos-duration="1000" 
             class="moon_card bg-white rounded-xl border border-[#eff2f7] p-5 flex flex-col items-start gap-2"
           >
             <div class="moon">
@@ -259,7 +267,7 @@
               strictly follows.
             </p>
           </div>
-          <div
+          <div  data-aos-duration="500" data-aos="zoom-in-down" 
             class="moon_card bg-white rounded-xl border border-[#eff2f7] p-5 flex flex-col items-start gap-2"
           >
             <div class="moon">
@@ -273,7 +281,7 @@
               strictly follows.
             </p>
           </div>
-          <div
+          <div  data-aos-duration="1000" data-aos="zoom-out-left" 
             class="moon_card bg-white rounded-xl border border-[#eff2f7] p-5 flex flex-col items-start gap-2"
           >
             <div class="moon">
@@ -287,7 +295,7 @@
               strictly follows.
             </p>
           </div>
-          <div
+          <div  data-aos-duration="1000" data-aos="zoom-out-right" 
             class="moon_card bg-white rounded-xl border border-[#eff2f7] p-5 flex flex-col items-start gap-2"
           >
             <div class="moon">
@@ -301,7 +309,7 @@
               strictly follows.
             </p>
           </div>
-          <div
+          <div  data-aos-duration="400" data-aos="zoom-in-up" 
             class="moon_card bg-white rounded-xl border border-[#eff2f7] p-5 flex flex-col items-start gap-2"
           >
             <div class="moon">
@@ -315,7 +323,7 @@
               strictly follows.
             </p>
           </div>
-          <div
+          <div data-aos-duration="1000" data-aos="zoom-out-left" 
             class="moon_card bg-white rounded-xl border border-[#eff2f7] p-5 flex flex-col items-start gap-2"
           >
             <div class="moon">
@@ -333,7 +341,7 @@
       </div>
     </section>
 
-    <!-- quring start -->
+    <!-- Khan Academy bilan start -->
     <section class="py-14">
       <div class="container2">
         <div class="flex flex-col gap-4">
@@ -412,7 +420,7 @@
         <div
           class="grid grid-cols-4 mt-10 items-center max-[991px]:grid-cols-2 max-[991px]:gap-5 max-[571px]:grid-cols-1"
         >
-          <div
+          <div data-aos="fade-right" data-aos-duration="1000" 
             class="border-l-[4px] border-[#ecc744] pl-4 max-[991px]:pl-10 ml-5"
           >
             <h1
@@ -427,7 +435,7 @@
               <p>Download per month</p>
             </div>
           </div>
-          <div
+          <div data-aos="fade-up" data-aos-duration="1000"  
             class="border-l-[4px] border-[#ecc744] pl-4 max-[991px]:pl-10 ml-5"
           >
             <h1
@@ -442,7 +450,7 @@
               <p>GitHub stars</p>
             </div>
           </div>
-          <div
+          <div data-aos="fade-up" data-aos-duration="1000" 
             class="border-l-[4px] border-[#ecc744] pl-4 max-[991px]:pl-10 ml-5"
           >
             <h1
@@ -457,7 +465,7 @@
               <p>Core contributors</p>
             </div>
           </div>
-          <div
+          <div data-aos="fade-left" data-aos-duration="1000" 
             class="border-l-[4px] border-[#ecc744] pl-4 max-[991px]:pl-10 ml-5"
           >
             <h1
@@ -727,17 +735,19 @@
         <div
           class="grid grid-cols-[1fr_1.5fr_1fr] items-end max-[780px]:grid-cols-1 max-[]:"
         >
-          <img
+          <img data-aos-duration="2000"
+          data-aos="fade-right"
             class="max-[780px]:w-full"
             src="./assets/img/loyiha1-removebg-preview.png"
             alt=""
           />
-          <img
+          <img data-aos-duration="2000"
+          data-aos="fade-up"
             class="max-[780px]:w-full"
             src="./assets/img/loyiha2-removebg-preview.png"
             alt=""
           />
-          <img
+          <img data-aos-duration="2000" data-aos="fade-left"
             class="max-[780px]:w-full"
             src="./assets/img/loyiha3-removebg-preview.png"
             alt=""
@@ -807,6 +817,9 @@
         </div>
       </div>
     </section>
+
+
+    <!-- footer start  -->
     <footer class="py-10 static z-50 bg-[#f8fafc]">
       <div class="container2 flex gap-28 max-[1027px]:flex-col-reverse max-[1027px]:gap-10">
         <div class="flex flex-col gap-4  max-[1027px]:flex-row max-[320px]:flex-col">
@@ -869,5 +882,10 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
   </body>
 </html>
