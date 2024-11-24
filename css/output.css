@@ -1798,6 +1798,10 @@ html{
     width: 70%;
   }
 
+  .max-\[1200px\]\:w-\[70vh\] {
+    width: 70vh;
+  }
+
   .max-\[1200px\]\:basis-\[100\%\] {
     flex-basis: 100%;
   }
