@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container2 {
+  margin: 0 auto;
+  width: 95%;
+}
+@media (min-width: 1400px) {
+  .container2 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 768px) {
+  .links {
+    position: fixed;
+    top: 0;
+    left: -120%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    z-index: 99;
+    transition: 0.5s;
+  }
+  #check:checked ~ .close {
+    display: block;
+  }
+  #check:checked ~ .links {
+    left: 0;
+  }
+}
+@media (max-width: 1200px) {
+    .dash_links {
+      position: fixed;
+      top: 0;
+      left: -120%;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: start;
+      z-index: 999;
+      transition: 0.5s;
+    }
+    #dash:checked ~ .dash_close {
+      display: block;
+    }
+    #dash:checked ~ .dash_links {
+      left: 0;
+    }
+  }
+.moon {
+  background-color: #eff2f7;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.moon_card:hover .moon_img {
+  filter: brightness(0) invert(1);
+}
+.moon_card:hover .moon {
+  background-color: #1d72d2;
+}
+.card {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "card1 card2"
+    "card3 card2";
+    gap: 30px;
+}
+.card1,.card2,.card3{
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.card1 {
+  grid-area: card1;
+}
+.card2 {
+  grid-area: card2;
+}
+.card3 {
+  grid-area: card3;
+}
+@media (max-width: 768px){
+    .card {
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1.5fr 1fr ;
+        grid-template-areas:
+          "card1" "card2" "card3";
+          gap: 20px;
+          }
+}
+.khan__content {
+  transition: 0.7s all;
+  position: absolute;
+  bottom: -400px;
+  border-radius: 12px;
+  padding: 0 30px 40px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 15.63%,
+      rgba(32, 81, 137, 0.9) 100%
+    ),
+    rgba(211, 211, 211, 0.016) 50% / cover no-repeat;
+}
+.social {
+    transition: 0.7s all;
+    position: absolute;
+    bottom: -400px;
+    z-index: 10;
+    border-radius: 12px;
+    padding: 0 30px 40px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0.99%, rgba(32, 81, 137, 0.9) 100%);
+  }
+  .socia:hover .social {
+    bottom: 60px;
+    }
+.card1:hover .khan__content {
+bottom: 0px;
+border-radius: 12px;
+}
+.card2:hover .khan__content {
+    bottom: 0px;
+  border-radius: 12px;
+ }
+    
+.card3:hover .khan__content {
+    bottom: 0px;
+  border-radius: 12px;
+ }
+.dash_link:hover .dash_scar{
+opacity: 1;
+transition: 0.5s;
+}   
+html{
+    scroll-behavior: smooth;
+  }
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 10px;
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+} 
+    

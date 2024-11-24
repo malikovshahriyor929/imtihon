@@ -1,0 +1,19 @@
+<svg width="60" height="59" viewBox="0 0 60 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_2031_23)">
+<rect x="4" width="52" height="52" rx="8" fill="#1D72D2"/>
+<g clip-path="url(#clip0_2031_23)">
+<path d="M41.684 18.0073L38.2512 34.1963C37.9922 35.3389 37.3168 35.6233 36.3571 35.085L31.1266 31.2307L28.6028 33.658C28.3235 33.9373 28.0899 34.1709 27.5516 34.1709L27.9274 28.844L37.6215 20.0842C38.043 19.7084 37.5301 19.5002 36.9664 19.876L24.9821 27.4221L19.8227 25.8073C18.7004 25.4569 18.6801 24.685 20.0563 24.1467L40.2367 16.3721C41.1711 16.0217 41.9887 16.5803 41.684 18.0073Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2031_23" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+
+
+
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2031_23" result="shape"/>
+</filter>
+<clipPath id="clip0_2031_23">
+<rect width="22.75" height="26" fill="white" transform="translate(19 13)"/>
+</clipPath>
+</defs>
+</svg>
